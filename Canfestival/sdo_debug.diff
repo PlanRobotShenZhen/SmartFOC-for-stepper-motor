@@ -1,0 +1,107 @@
+diff --git a/Project/Lib/canfestival-3-asc/src/sdo.c b/Project/Lib/canfestival-3-asc/src/sdo.c
+index 4e7c412..fc2b0b9 100644
+--- a/Project/Lib/canfestival-3-asc/src/sdo.c
++++ b/Project/Lib/canfestival-3-asc/src/sdo.c
+@@ -36,6 +36,7 @@
+ 
+ #include "sysdep.h"
+ #include "canfestival.h"
++#include "common.h"
+ 
+ /* Uncomment if your compiler does not support inline functions */
+ #define NO_INLINE
+@@ -670,7 +671,7 @@ UNS8 sendSDO (CO_Data* d, UNS8 whoami, UNS8 CliServNbr, UNS8 *pData)
+ 
+ 	MSG_WAR(0x3A38, "sendSDO",0);
+ 	if( !((d->nodeState == Operational) ||  (d->nodeState == Pre_operational ))) {
+-		MSG_WAR(0x2A39, "unable to send the SDO (not in op or pre-op mode", d->nodeState);
++	        SYS_DEBUG(("unable to send the SDO (not in op or pre-op mode):state:%x", d->nodeState));
+ 		return 0xFF;
+ 	}
+ 
+@@ -678,21 +679,21 @@ UNS8 sendSDO (CO_Data* d, UNS8 whoami, UNS8 CliServNbr, UNS8 *pData)
+ 	if ( whoami == SDO_SERVER )	{
+ 		offset = d->firstIndex->SDO_SVR;
+ 		if ((offset == 0) || ((offset+CliServNbr) > d->lastIndex->SDO_SVR)) {
+-			MSG_ERR(0x1A42, "SendSDO : SDO server not found", 0);
++		        SYS_DEBUG(("SendSDO : SDO server not found"));
+ 			return 0xFF;
+ 		}
+ 		m.cob_id = UNS16_LE( (UNS16) *((UNS32*) d->objdict[offset+CliServNbr].pSubindex[2].pObject) );
+-		MSG_WAR(0x3A41, "I am server Tx cobId : ", m.cob_id);
++		SYS_DEBUG(("I am server Tx cobId :%x ", m.cob_id));
+ 	}
+ 	else {			/*case client*/
+ 		/* Get the client->server cobid.*/
+ 		offset = d->firstIndex->SDO_CLT;
+ 		if ((offset == 0) || ((offset+CliServNbr) > d->lastIndex->SDO_CLT)) {
+-			MSG_ERR(0x1A42, "SendSDO : SDO client not found", 0);
++		        SYS_DEBUG(("SendSDO : SDO client not found"));
+ 			return 0xFF;
+ 		}
+ 		m.cob_id = UNS16_LE( (UNS16) *((UNS32*) d->objdict[offset+CliServNbr].pSubindex[1].pObject) );
+-		MSG_WAR(0x3A41, "I am client Tx cobId : ", m.cob_id);
++		SYS_DEBUG(("I am client Tx cobId :%x ", m.cob_id));
+ 	}
+ 	/* message copy for sending */
+ 	m.rtr = NOT_A_REQUEST;
+@@ -2152,9 +2153,9 @@ INLINE UNS8 _readNetworkDict (CO_Data* d, UNS8 nodeId, UNS16 index, UNS8 subInde
+ 	UNS8 line;
+ 	UNS8 data[8];
+ 
+-	MSG_WAR(0x3AD5, "Send SDO to read in the dictionary of node : ", nodeId);
+-	MSG_WAR(0x3AD6, "                                  At index : ", index);
+-	MSG_WAR(0x3AD7, "                                  subIndex : ", subIndex);
++	SYS_DEBUG(("Send SDO to read in the dictionary of node :%x ", nodeId));
++	SYS_DEBUG(("                                  At index :%x ", index));
++	SYS_DEBUG(("                                  subIndex :%x ", subIndex));
+ 
+ 	/* First let's find the corresponding SDO client in our OD  */
+ 	CliNbr = GetSDOClientFromNodeId( d, nodeId);
+@@ -2164,17 +2165,17 @@ INLINE UNS8 _readNetworkDict (CO_Data* d, UNS8 nodeId, UNS16 index, UNS8 subInde
+ 	/* Verify that there is no SDO communication yet. */
+ 	err = getSDOlineOnUse(d, CliNbr, SDO_CLIENT, &line);
+ 	if (!err) {
+-		MSG_ERR(0x1AD8, "SDO error : Communication yet established. with node : ", nodeId);
++	        SYS_DEBUG(("SDO error : Communication yet established. with node : ", nodeId));
+ 		return 0xFF;
+ 	}
+ 	/* Taking the line ... */
+ 	err = getSDOfreeLine( d, SDO_CLIENT, &line );
+ 	if (err) {
+-		MSG_ERR(0x1AD9, "SDO error : No line free, too many SDO in progress. Aborted for node : ", nodeId);
++	        SYS_DEBUG(("SDO error : No line free, too many SDO in progress. Aborted for node : ", nodeId));
+ 		return (0xFF);
+ 	}
+ 	else {
+-		MSG_WAR(0x3AE0, "Transmission on line : ", line);
++	        SYS_DEBUG(("Transmission on line : ", line));
+ 	}
+ 
+     if(useBlockMode) {
+@@ -2203,7 +2204,7 @@ INLINE UNS8 _readNetworkDict (CO_Data* d, UNS8 nodeId, UNS16 index, UNS8 subInde
+ 	d->transfers[line].Callback = Callback;
+ 	err = sendSDO(d, SDO_CLIENT, CliNbr, data);
+ 	if (err) {
+-		MSG_ERR(0x1AE5, "SDO. Error while sending SDO to node : ", nodeId);
++	        SYS_DEBUG(("SDO. Error while sending SDO to node : ", nodeId));
+ 		/* release the line */
+ 		resetSDOline(d, line);
+ 		return 0xFF;
+@@ -2328,7 +2329,7 @@ UNS8 getReadResultNetworkDict (CO_Data* d, UNS8 nodeId, void* data, UNS32 *size,
+ 	/* Looking for the line tranfert. */
+ 	err = getSDOlineOnUse(d, CliNbr, SDO_CLIENT, &line);
+ 	if (err) {
+-		MSG_ERR(0x1AF0, "SDO error : No line found for communication with node : ", nodeId);
++	        SYS_DEBUG(("SDO error : No line found for communication with node :%x ", nodeId));
+         *size = 0;
+         return SDO_ABORTED_INTERNAL;
+ 	}
+@@ -2339,6 +2340,7 @@ UNS8 getReadResultNetworkDict (CO_Data* d, UNS8 nodeId, void* data, UNS32 *size,
+             *abortCode = d->transfers[line].abortCode;
+             *size = 0;
+         }
++	    SYS_DEBUG(("state:%x",d->transfers[line].state));
+ 		return d->transfers[line].state;
+     }
+ 

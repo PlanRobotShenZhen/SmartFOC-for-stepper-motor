@@ -1,0 +1,89 @@
+.\obj\uart_interface.o: ..\..\Modbus\uart_interface.c
+.\obj\uart_interface.o: ..\..\Modbus\uart_interface.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\uart_interface.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\uart_interface.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\uart_interface.o: ..\..\Modbus\include\mb.h
+.\obj\uart_interface.o: ..\..\Modbus\include\port.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\uart_interface.o: ..\..\Modbus\include\mbport.h
+.\obj\uart_interface.o: ..\..\Modbus\include\mbproto.h
+.\obj\uart_interface.o: ..\..\SRC\ExternGlobals.h
+.\obj\uart_interface.o: ..\..\SRC\DeviceConfig.h
+.\obj\uart_interface.o: ..\..\SRC\pidids.h
+.\obj\uart_interface.o: ..\..\SRC\pida.h
+.\obj\uart_interface.o: ..\..\SRC\pidc.h
+.\obj\uart_interface.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\uart_interface.o: E:\Software installation\ARM\ARMCC\Bin\..\include\string.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\uart_interface.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\uart_interface.o: ..\..\SRC\Timer1.h
+.\obj\uart_interface.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\uart_interface.o: ..\..\SRC\SystemVar.h
+.\obj\uart_interface.o: ..\..\SRC\UartMode.h
+.\obj\uart_interface.o: ..\..\SRC\SystemError.h
+.\obj\uart_interface.o: ..\..\SRC\MotorControl.h
+.\obj\uart_interface.o: ..\..\SRC\CanOpenMode.h
+.\obj\uart_interface.o: ..\..\SRC\pidcspeed.h
+.\obj\uart_interface.o: ..\..\SRC\pidIqs.h
+.\obj\uart_interface.o: ..\..\SRC\SpeedPlan2.h
+.\obj\uart_interface.o: ..\..\SRC\pidtorque.h
+.\obj\uart_interface.o: ..\..\SRC\Pidposition.h
+.\obj\uart_interface.o: ..\..\SRC\Pidholding.h

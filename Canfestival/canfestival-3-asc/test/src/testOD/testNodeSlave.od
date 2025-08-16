@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<!DOCTYPE PyObject SYSTEM "PyObjects.dtd">
+<PyObject module="node" class="Node" id="112452592">
+<attr name="Profile" type="dict" id="111449408" >
+</attr>
+<attr name="Description" type="string" value="" />
+<attr name="Dictionary" type="dict" id="111449552" >
+  <entry>
+    <key type="numeric" value="4096" />
+    <val type="numeric" value="0" />
+  </entry>
+  <entry>
+    <key type="numeric" value="4608" />
+    <val type="list" id="111474688" >
+      <item type="numeric" value="1537" />
+      <item type="numeric" value="1409" />
+    </val>
+  </entry>
+  <entry>
+    <key type="numeric" value="4101" />
+    <val type="numeric" value="0" />
+  </entry>
+  <entry>
+    <key type="numeric" value="4102" />
+    <val type="numeric" value="0" />
+  </entry>
+  <entry>
+    <key type="numeric" value="4097" />
+    <val type="numeric" value="0" />
+  </entry>
+  <entry>
+    <key type="numeric" value="8201" />
+    <val type="string" value="" />
+  </entry>
+  <entry>
+    <key type="numeric" value="8199" />
+    <val type="numeric" value="0" />
+  </entry>
+  <entry>
+    <key type="numeric" value="4120" />
+    <val type="list" id="111474608" >
+      <item type="numeric" value="0" />
+      <item type="numeric" value="0" />
+      <item type="numeric" value="0" />
+      <item type="numeric" value="0" />
+    </val>
+  </entry>
+  <entry>
+    <key type="numeric" value="4736" />
+    <val type="list" id="111608456" >
+      <item type="numeric" value="1537" />
+      <item type="numeric" value="1409" />
+      <item type="numeric" value="1" />
+    </val>
+  </entry>
+</attr>
+<attr name="SpecificMenu" type="list" id="111608656" >
+</attr>
+<attr name="ParamsDictionary" type="dict" id="111455808" >
+</attr>
+<attr name="UserMapping" type="dict" id="111449840" >
+  <entry>
+    <key type="numeric" value="8201" />
+    <val type="dict" id="111449984" >
+      <entry>
+        <key type="string" value="need" />
+        <val type="False" value="" />
+      </entry>
+      <entry>
+        <key type="string" value="values" />
+        <val type="list" id="111608696" >
+          <item type="dict" id="111450128" >
+            <entry>
+              <key type="string" value="access" />
+              <val type="string" value="rw" />
+            </entry>
+            <entry>
+              <key type="string" value="pdo" />
+              <val type="True" value="" />
+            </entry>
+            <entry>
+              <key type="string" value="type" />
+              <val type="numeric" value="9" />
+            </entry>
+            <entry>
+              <key type="string" value="name" />
+              <val type="string">varString</val>
+            </entry>
+          </item>
+        </val>
+      </entry>
+      <entry>
+        <key type="string" value="name" />
+        <val type="string">varString</val>
+      </entry>
+      <entry>
+        <key type="string" value="struct" />
+        <val type="numeric" value="1" />
+      </entry>
+    </val>
+  </entry>
+  <entry>
+    <key type="numeric" value="8199" />
+    <val type="dict" id="111450272" >
+      <entry>
+        <key type="string" value="need" />
+        <val type="False" value="" />
+      </entry>
+      <entry>
+        <key type="string" value="values" />
+        <val type="list" id="111608216" >
+          <item type="dict" id="111450416" >
+            <entry>
+              <key type="string" value="access" />
+              <val type="string" value="rw" />
+            </entry>
+            <entry>
+              <key type="string" value="pdo" />
+              <val type="True" value="" />
+            </entry>
+            <entry>
+              <key type="string" value="type" />
+              <val type="numeric" value="7" />
+            </entry>
+            <entry>
+              <key type="string" value="name" />
+              <val type="string">varUINT32</val>
+            </entry>
+          </item>
+        </val>
+      </entry>
+      <entry>
+        <key type="string" value="name" />
+        <val type="string">varUINT32</val>
+      </entry>
+      <entry>
+        <key type="string" value="struct" />
+        <val type="numeric" value="1" />
+      </entry>
+    </val>
+  </entry>
+</attr>
+<attr name="DS302" type="dict" id="111450560" >
+</attr>
+<attr name="ProfileName" type="string" value="None" />
+<attr name="Type" type="string" value="master" />
+<attr name="ID" type="numeric" value="0" />
+<attr name="Name" type="string">testSlaveNode</attr>
+</PyObject>

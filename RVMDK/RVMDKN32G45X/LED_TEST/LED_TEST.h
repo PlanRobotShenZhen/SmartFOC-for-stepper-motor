@@ -1,0 +1,16 @@
+#ifndef __LED_TEST_H__
+#define __LED_TEST_H__
+
+
+//¡¡µ∆¬ﬂº≠£¨¿≠µÕ¡¡µ∆
+#define LED1_ON			    GPIO_ResetBits(GPIOC,GPIO_PIN_15);     // ¬Ãµ∆¡¡
+#define LED1_OFF			  GPIO_SetBits(GPIOC,GPIO_PIN_15);
+#define LED2_ON			    GPIO_ResetBits(GPIOC,GPIO_PIN_14);     // ∫Ïµ∆¡¡
+#define LED2_OFF			  GPIO_SetBits(GPIOC,GPIO_PIN_14);
+
+void LED_Green_Flash(void);
+void LED_Red_Flash(void);
+void LED_Yellow_Flash(void);
+
+
+#endif

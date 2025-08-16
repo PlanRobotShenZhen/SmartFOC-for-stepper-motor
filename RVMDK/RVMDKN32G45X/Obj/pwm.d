@@ -1,0 +1,89 @@
+.\obj\pwm.o: ..\..\App\src\Pwm.c
+.\obj\pwm.o: ..\..\SRC\ExternGlobals.h
+.\obj\pwm.o: ..\..\SRC\DeviceConfig.h
+.\obj\pwm.o: ..\..\SRC\pidids.h
+.\obj\pwm.o: ..\..\SRC\pida.h
+.\obj\pwm.o: ..\..\SRC\pidc.h
+.\obj\pwm.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\pwm.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\pwm.o: ..\..\SRC\Timer1.h
+.\obj\pwm.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\pwm.o: ..\..\SRC\SystemVar.h
+.\obj\pwm.o: ..\..\SRC\UartMode.h
+.\obj\pwm.o: ..\..\SRC\SystemError.h
+.\obj\pwm.o: ..\..\SRC\MotorControl.h
+.\obj\pwm.o: ..\..\SRC\CanOpenMode.h
+.\obj\pwm.o: ..\..\SRC\pidcspeed.h
+.\obj\pwm.o: ..\..\SRC\pidIqs.h
+.\obj\pwm.o: ..\..\Modbus\uart_interface.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\pwm.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\pwm.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\pwm.o: ..\..\Modbus\include\mb.h
+.\obj\pwm.o: ..\..\Modbus\include\port.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\pwm.o: D:\Program Files\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\pwm.o: ..\..\Modbus\include\mbport.h
+.\obj\pwm.o: ..\..\Modbus\include\mbproto.h
+.\obj\pwm.o: ..\..\SRC\SpeedPlan2.h
+.\obj\pwm.o: ..\..\SRC\pidtorque.h
+.\obj\pwm.o: ..\..\SRC\Pidposition.h
+.\obj\pwm.o: ..\..\SRC\Pidholding.h

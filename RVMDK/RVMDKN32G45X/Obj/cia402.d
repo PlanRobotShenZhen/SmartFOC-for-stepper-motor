@@ -1,0 +1,91 @@
+.\obj\cia402.o: ..\..\SRC\CIA402.c
+.\obj\cia402.o: ..\..\SRC\SpeedPlan2.h
+.\obj\cia402.o: ..\..\SRC\pidc.h
+.\obj\cia402.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\cia402.o: ..\..\SRC\ExternGlobals.h
+.\obj\cia402.o: ..\..\SRC\DeviceConfig.h
+.\obj\cia402.o: ..\..\SRC\pidids.h
+.\obj\cia402.o: ..\..\SRC\pida.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\string.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\cia402.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\cia402.o: ..\..\SRC\Timer1.h
+.\obj\cia402.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\cia402.o: ..\..\SRC\SystemVar.h
+.\obj\cia402.o: ..\..\SRC\UartMode.h
+.\obj\cia402.o: ..\..\SRC\SystemError.h
+.\obj\cia402.o: ..\..\SRC\MotorControl.h
+.\obj\cia402.o: ..\..\SRC\CanOpenMode.h
+.\obj\cia402.o: ..\..\SRC\pidcspeed.h
+.\obj\cia402.o: ..\..\SRC\pidIqs.h
+.\obj\cia402.o: ..\..\Modbus\uart_interface.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\cia402.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\cia402.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\cia402.o: ..\..\Modbus\include\mb.h
+.\obj\cia402.o: ..\..\Modbus\include\port.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\cia402.o: E:\Software installation\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\cia402.o: ..\..\Modbus\include\mbport.h
+.\obj\cia402.o: ..\..\Modbus\include\mbproto.h
+.\obj\cia402.o: ..\..\SRC\SpeedPlan2.h
+.\obj\cia402.o: ..\..\SRC\pidtorque.h
+.\obj\cia402.o: ..\..\SRC\Pidposition.h
+.\obj\cia402.o: ..\..\SRC\Pidholding.h
+.\obj\cia402.o: ..\..\can_app\Ds402_Slave.h

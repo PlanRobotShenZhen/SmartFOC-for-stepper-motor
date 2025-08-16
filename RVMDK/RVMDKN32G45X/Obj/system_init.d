@@ -1,0 +1,92 @@
+.\obj\system_init.o: ..\..\App\src\System_Init.c
+.\obj\system_init.o: ..\..\App\inc\SystemDefine.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\system_init.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\system_init.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\system_init.o: ..\..\SRC\ExternGlobals.h
+.\obj\system_init.o: ..\..\SRC\DeviceConfig.h
+.\obj\system_init.o: ..\..\SRC\pidids.h
+.\obj\system_init.o: ..\..\SRC\pida.h
+.\obj\system_init.o: ..\..\SRC\pidc.h
+.\obj\system_init.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\string.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\system_init.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\system_init.o: ..\..\SRC\Timer1.h
+.\obj\system_init.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\system_init.o: ..\..\SRC\SystemVar.h
+.\obj\system_init.o: ..\..\SRC\UartMode.h
+.\obj\system_init.o: ..\..\SRC\SystemError.h
+.\obj\system_init.o: ..\..\SRC\MotorControl.h
+.\obj\system_init.o: ..\..\SRC\CanOpenMode.h
+.\obj\system_init.o: ..\..\SRC\pidcspeed.h
+.\obj\system_init.o: ..\..\SRC\pidIqs.h
+.\obj\system_init.o: ..\..\Modbus\uart_interface.h
+.\obj\system_init.o: ..\..\Modbus\include\mb.h
+.\obj\system_init.o: ..\..\Modbus\include\port.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\system_init.o: E:\Software installation\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\system_init.o: ..\..\Modbus\include\mbport.h
+.\obj\system_init.o: ..\..\Modbus\include\mbproto.h
+.\obj\system_init.o: ..\..\SRC\SpeedPlan2.h
+.\obj\system_init.o: ..\..\SRC\pidtorque.h
+.\obj\system_init.o: ..\..\SRC\Pidposition.h
+.\obj\system_init.o: ..\..\SRC\Pidholding.h
+.\obj\system_init.o: ..\..\App\inc\drv8323.h
+.\obj\system_init.o: ..\..\SRC\Function.h

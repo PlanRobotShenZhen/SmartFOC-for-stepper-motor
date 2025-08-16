@@ -1,0 +1,89 @@
+.\obj\pidtorque.o: ..\..\SRC\PidTorque.c
+.\obj\pidtorque.o: ..\..\SRC\pidtorque.h
+.\obj\pidtorque.o: ..\..\SRC\ExternGlobals.h
+.\obj\pidtorque.o: ..\..\SRC\DeviceConfig.h
+.\obj\pidtorque.o: ..\..\SRC\pidids.h
+.\obj\pidtorque.o: ..\..\SRC\pida.h
+.\obj\pidtorque.o: ..\..\SRC\pidc.h
+.\obj\pidtorque.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\string.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\pidtorque.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\pidtorque.o: ..\..\SRC\Timer1.h
+.\obj\pidtorque.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\pidtorque.o: ..\..\SRC\SystemVar.h
+.\obj\pidtorque.o: ..\..\SRC\UartMode.h
+.\obj\pidtorque.o: ..\..\SRC\SystemError.h
+.\obj\pidtorque.o: ..\..\SRC\MotorControl.h
+.\obj\pidtorque.o: ..\..\SRC\CanOpenMode.h
+.\obj\pidtorque.o: ..\..\SRC\pidcspeed.h
+.\obj\pidtorque.o: ..\..\SRC\pidIqs.h
+.\obj\pidtorque.o: ..\..\Modbus\uart_interface.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\pidtorque.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\pidtorque.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\pidtorque.o: ..\..\Modbus\include\mb.h
+.\obj\pidtorque.o: ..\..\Modbus\include\port.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\pidtorque.o: E:\Software installation\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\pidtorque.o: ..\..\Modbus\include\mbport.h
+.\obj\pidtorque.o: ..\..\Modbus\include\mbproto.h
+.\obj\pidtorque.o: ..\..\SRC\SpeedPlan2.h
+.\obj\pidtorque.o: ..\..\SRC\Pidposition.h
+.\obj\pidtorque.o: ..\..\SRC\Pidholding.h

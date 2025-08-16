@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{d4508ab1-1685-4ea2-bd6f-859c4ad3f7d7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <ProjectName>unitTests</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>true</Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>true</Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>true</Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>true</Microsoft-googletest-v140-windesktop-msvcstl-static-rt-dyn-Disable-gtest_main>
+  </PropertyGroup>
+  <ItemGroup>
+    <ClCompile Include="src\common\testCanDriver.cpp" />
+    <ClCompile Include="src\common\testCommon.c" />
+    <ClCompile Include="src\common\timerFixture.cpp" />
+    <ClCompile Include="src\driversWin32\driverTestPeak.cpp" />
+    <ClCompile Include="src\driversWin32\driverTestTCP.cpp" />
+    <ClCompile Include="src\drivers\functionFixture.cpp" />
+    <ClCompile Include="src\drivers\interfaceFixture.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testOD\testNodeMaster.c" />
+    <ClCompile Include="src\testOD\testNodeSlave.c" />
+    <ClCompile Include="src\testSDO\testSDO.cpp" />
+    <ClCompile Include="src\testStates\testStates.cpp" />
+    <ClCompile Include="src\testTimer\testTimer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\common\testCanDriver.h" />
+    <ClInclude Include="src\common\testCommon.h" />
+    <ClInclude Include="src\common\timerFixture.h" />
+    <ClInclude Include="src\drivers\functionFixture.h" />
+    <ClInclude Include="src\drivers\interfaceFixture.h" />
+    <ClInclude Include="src\testOD\testNodeMaster.h" />
+    <ClInclude Include="src\testOD\testNodeSlave.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemDefinitionGroup />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets" Condition="Exists('..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets')" />
+  </ImportGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\win32;$(MSBuildProjectDirectory)\external;$(SolutionDir)include;$(MSBuildProjectDirectory)\src\drivers;$(MSBuildProjectDirectory)\src\testOD;$(MSBuildProjectDirectory)\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>
+      </WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>$(SolutionDir)$(Configuration)\CanFestival-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference />
+    <ProjectReference />
+    <PreBuildEvent>
+      <Command> c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeMaster.od "src\testOD\testNodeMaster.c"
+ c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeSlave.od "src\testOD\testNodeSlave.c"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\win32;$(MSBuildProjectDirectory)\external;$(SolutionDir)include;$(MSBuildProjectDirectory)\src\drivers;$(MSBuildProjectDirectory)\src\testOD;$(MSBuildProjectDirectory)\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>$(SolutionDir)$(Platform)\$(Configuration)\CanFestival-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference />
+    <ProjectReference />
+    <PreBuildEvent>
+      <Command> c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeMaster.od "src\testOD\testNodeMaster.c"
+ c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeSlave.od "src\testOD\testNodeSlave.c"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\win32;$(MSBuildProjectDirectory)\external;$(SolutionDir)include;$(MSBuildProjectDirectory)\src\drivers;$(MSBuildProjectDirectory)\src\testOD;$(MSBuildProjectDirectory)\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>$(SolutionDir)$(Configuration)\CanFestival-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference />
+    <ProjectReference />
+    <PreBuildEvent>
+      <Command> c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeMaster.od "src\testOD\testNodeMaster.c"
+ c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeSlave.od "src\testOD\testNodeSlave.c"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)include\win32;$(MSBuildProjectDirectory)\external;$(SolutionDir)include;$(MSBuildProjectDirectory)\src\drivers;$(MSBuildProjectDirectory)\src\testOD;$(MSBuildProjectDirectory)\src\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level4</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalDependencies>$(SolutionDir)$(Platform)\$(Configuration)\CanFestival-3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <ProjectReference />
+    <ProjectReference />
+    <PreBuildEvent>
+      <Command> c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeMaster.od "src\testOD\testNodeMaster.c"
+ c:\python27\python.exe "$(SolutionDir)objdictgen\objdictgen.py" src\testOD\testNodeSlave.od "src\testOD\testNodeSlave.c"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.1.8.0\build\native\Microsoft.googletest.v140.windesktop.msvcstl.static.rt-dyn.targets'))" />
+  </Target>
+</Project>

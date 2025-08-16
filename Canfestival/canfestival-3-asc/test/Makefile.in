@@ -1,0 +1,126 @@
+#! gmake
+
+#
+# Copyright (C) 2018 Lars Elgtvedt Susaas
+#
+# This file is part of canfestival, a library implementing the canopen
+# stack
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+#
+
+CC = SUB_CC
+CXX = SUB_CXX
+LD = SUB_LD
+PYTHON = SUB_PYTHON
+OPT_CFLAGS = -O2
+CFLAGS = SUB_OPT_CFLAGS
+PROG_CFLAGS = SUB_PROG_CFLAGS
+EXE_CFLAGS = SUB_EXE_CFLAGS
+OS_NAME = SUB_OS_NAME
+ARCH_NAME = SUB_ARCH_NAME
+PREFIX = SUB_PREFIX
+TARGET = SUB_TARGET
+CAN_DRIVER = SUB_CAN_DRIVER
+TIMERS_DRIVER = SUB_TIMERS_DRIVER
+FILE_NAME = canFestivalTest
+#INCLUDES = -I../include -I../include/$(TARGET) -I../include/$(CAN_DRIVER) -I../include/$(TIMERS_DRIVER)
+INCLUDES = -I../include -I../include/$(TARGET) -I../include/$(TIMERS_DRIVER) -I./src/drivers
+ENABLE_SHARED = SUB_ENABLE_SHARED
+TARGET_DIR=../bin/
+
+hippoMocks = external/comsupport.h external/hippomocks.h
+
+cppsrc = $(wildcard src/main.cpp) \
+         $(wildcard src/common/*.cpp) \
+         $(wildcard src/drivers/*.cpp) \
+         $(wildcard src/mocObjects/*.cpp) \
+         $(wildcard src/testDCF/*.cpp) \
+         $(wildcard src/testEmcy/*.cpp) \
+         $(wildcard src/testLifegrd/*.cpp) \
+         $(wildcard src/testLSS/*.cpp) \
+         $(wildcard src/testNMTMaster/*.cpp) \
+         $(wildcard src/testNMTSlave/*.cpp) \
+         $(wildcard src/TestObjacces/*.cpp) \
+         $(wildcard src/testPDO/*.cpp) \
+         $(wildcard src/testSDO/*.cpp) \
+         $(wildcard src/testStates/*.cpp) \
+         $(wildcard src/testSync/*.cpp) \
+         $(wildcard src/testTimer/*.cpp)
+
+ifeq ($(TARGET),win32)
+	platformSpesificTests = $(wildcard src/driversWin32/*.cpp)
+else
+	platformSpesificTests = $(wildcard src/driversLinux/*.cpp)
+endif
+
+odsrc =  $(wildcard src/testOD/*.od)
+odcsrc = $(odsrc:.od=.c)
+
+csrc = $(odcsrc) $(wildcard src/common/*.c)
+
+.PRECIOUS:%.c
+
+PROJECT_INC = -I./external -I./src/common/ -I./src/testOD
+
+obj = $(csrc:.c=.o) $(platformSpesificTests:.cpp=.o) $(cppsrc:.cpp=.o)
+
+ifeq ($(ENABLE_SHARED),1)
+OBJS = $(obj)
+else
+OBJS = $(obj) $(TARGET_DIR)libcanfestival.a ../drivers/$(TARGET)/libcanfestival_$(TARGET).a
+endif
+
+ifeq ($(TARGET),win32)
+	FILE_NAME = $(FILE_NAME).exe
+endif
+
+ifeq ($(TIMERS_DRIVER),timers_win32)
+	EXE_CFLAGS =
+endif
+
+all: $(hippoMocks) $(TARGET_DIR)$(FILE_NAME)
+
+odcsrc../../drivers/$(TARGET)/libcanfestival_$(TARGET).a:
+	$(MAKE) -C ../../drivers/$(TARGET) $(TARGET_DIR)libcanfestival_$(TARGET).a
+
+ifeq ($(ENABLE_SHARED),1)
+$(TARGET_DIR)$(FILE_NAME): $(OBJS)
+	echo $(OBJS)
+	$(LD) $(CFLAGS) $(PROG_CFLAGS) ${PROGDEFINES} -o $@ $(OBJS) -L../../src -L../../drivers/unix -lcanfestival  -lcanfestival_$(TARGET) $(EXE_CFLAGS) -lgtest
+else
+$(TARGET_DIR)$(FILE_NAME): $(OBJS)
+	echo $(OBJS)
+	$(LD) $(CFLAGS) $(PROG_CFLAGS) ${PROGDEFINES} -o $@ $(OBJS) $(EXE_CFLAGS) -lgtest
+endif
+
+%.c: %.od
+	$(PYTHON) ../objdictgen/objdictgen.py $< $@
+
+%.o: %.c $(odcsrc)
+	$(CC) $(CFLAGS) $(PROG_CFLAGS) ${PROGDEFINES} $(INCLUDES) ${PROJECT_INC} -o $@ -c $<
+
+%.o: %.cpp $(odcsrc)
+	$(CXX) $(CFLAGS) $(PROG_CFLAGS) ${PROGDEFINES} $(INCLUDES) ${PROJECT_INC} -o $@ -c $<
+
+external/comsupport.h external/hippomocks.h:
+	wget -P external https://raw.githubusercontent.com/dascandy/hippomocks/master/HippoMocks/$(subst external/,,$@)
+
+clean:
+	rm -f $(obj)
+	rm -f $(FILE_NAME)
+	rm -f $(odsrc:.od=.c) $(odsrc:.od=.h)
+
+mrproper: clean

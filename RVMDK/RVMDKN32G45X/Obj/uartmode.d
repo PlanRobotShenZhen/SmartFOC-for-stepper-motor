@@ -1,0 +1,92 @@
+.\obj\uartmode.o: ..\..\SRC\UartMode.c
+.\obj\uartmode.o: ..\..\SRC\ExternGlobals.h
+.\obj\uartmode.o: ..\..\SRC\DeviceConfig.h
+.\obj\uartmode.o: ..\..\SRC\pidids.h
+.\obj\uartmode.o: ..\..\SRC\pida.h
+.\obj\uartmode.o: ..\..\SRC\pidc.h
+.\obj\uartmode.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\string.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\uartmode.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\uartmode.o: ..\..\SRC\Timer1.h
+.\obj\uartmode.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\uartmode.o: ..\..\SRC\SystemVar.h
+.\obj\uartmode.o: ..\..\SRC\UartMode.h
+.\obj\uartmode.o: ..\..\SRC\SystemError.h
+.\obj\uartmode.o: ..\..\SRC\MotorControl.h
+.\obj\uartmode.o: ..\..\SRC\CanOpenMode.h
+.\obj\uartmode.o: ..\..\SRC\pidcspeed.h
+.\obj\uartmode.o: ..\..\SRC\pidIqs.h
+.\obj\uartmode.o: ..\..\Modbus\uart_interface.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\uartmode.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\uartmode.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\uartmode.o: ..\..\Modbus\include\mb.h
+.\obj\uartmode.o: ..\..\Modbus\include\port.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\uartmode.o: E:\Software installation\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\uartmode.o: ..\..\Modbus\include\mbport.h
+.\obj\uartmode.o: ..\..\Modbus\include\mbproto.h
+.\obj\uartmode.o: ..\..\SRC\SpeedPlan2.h
+.\obj\uartmode.o: ..\..\SRC\pidtorque.h
+.\obj\uartmode.o: ..\..\SRC\Pidposition.h
+.\obj\uartmode.o: ..\..\SRC\Pidholding.h
+.\obj\uartmode.o: ..\..\SRC\SpeedPlan2.h
+.\obj\uartmode.o: ..\..\SRC\FLASH_WR.h
+.\obj\uartmode.o: ..\..\App\inc\Spi.h

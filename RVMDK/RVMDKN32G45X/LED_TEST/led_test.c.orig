@@ -1,0 +1,48 @@
+#include "LED_TEST.h"
+#include "n32g45x.h"
+
+
+extern void  delay_Ms();
+
+
+void LED_green_flash(){
+
+			LED1_ON;
+	
+			delay_Ms(100);
+
+			LED1_OFF;
+	
+			delay_Ms(100);
+
+}
+
+void LED_red_flash(){
+
+			LED2_ON;
+	
+			delay_Ms(100);
+
+			LED2_OFF;
+	
+			delay_Ms(100);
+
+}
+
+void LED_yellow_flash(){
+
+			LED1_ON;
+			LED2_ON;
+	
+			delay_Ms(100);
+
+			LED1_OFF;
+			LED2_OFF;
+			delay_Ms(100);
+
+}
+
+
+
+
+

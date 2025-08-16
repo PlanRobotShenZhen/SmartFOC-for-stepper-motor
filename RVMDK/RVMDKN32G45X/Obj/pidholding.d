@@ -1,0 +1,89 @@
+.\obj\pidholding.o: ..\..\SRC\Pidholding.c
+.\obj\pidholding.o: ..\..\SRC\Pidholding.h
+.\obj\pidholding.o: ..\..\SRC\ExternGlobals.h
+.\obj\pidholding.o: ..\..\SRC\DeviceConfig.h
+.\obj\pidholding.o: ..\..\SRC\pidids.h
+.\obj\pidholding.o: ..\..\SRC\pida.h
+.\obj\pidholding.o: ..\..\SRC\pidc.h
+.\obj\pidholding.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\string.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\pidholding.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\pidholding.o: ..\..\SRC\Timer1.h
+.\obj\pidholding.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\pidholding.o: ..\..\SRC\SystemVar.h
+.\obj\pidholding.o: ..\..\SRC\UartMode.h
+.\obj\pidholding.o: ..\..\SRC\SystemError.h
+.\obj\pidholding.o: ..\..\SRC\MotorControl.h
+.\obj\pidholding.o: ..\..\SRC\CanOpenMode.h
+.\obj\pidholding.o: ..\..\SRC\pidcspeed.h
+.\obj\pidholding.o: ..\..\SRC\pidIqs.h
+.\obj\pidholding.o: ..\..\Modbus\uart_interface.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\pidholding.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\pidholding.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\pidholding.o: ..\..\Modbus\include\mb.h
+.\obj\pidholding.o: ..\..\Modbus\include\port.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\pidholding.o: E:\Software installation\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\pidholding.o: ..\..\Modbus\include\mbport.h
+.\obj\pidholding.o: ..\..\Modbus\include\mbproto.h
+.\obj\pidholding.o: ..\..\SRC\SpeedPlan2.h
+.\obj\pidholding.o: ..\..\SRC\pidtorque.h
+.\obj\pidholding.o: ..\..\SRC\Pidposition.h

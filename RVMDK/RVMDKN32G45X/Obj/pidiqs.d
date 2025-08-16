@@ -1,0 +1,89 @@
+.\obj\pidiqs.o: ..\..\SRC\PidIqs.c
+.\obj\pidiqs.o: ..\..\SRC\pidIqs.h
+.\obj\pidiqs.o: ..\..\SRC\ExternGlobals.h
+.\obj\pidiqs.o: ..\..\SRC\DeviceConfig.h
+.\obj\pidiqs.o: ..\..\SRC\pidids.h
+.\obj\pidiqs.o: ..\..\SRC\pida.h
+.\obj\pidiqs.o: ..\..\SRC\pidc.h
+.\obj\pidiqs.o: ..\..\iqmath\include\IQmathLib.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\limits.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\Timer.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\timerscfg.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\applicfg.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\string.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\def.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\cm4\config.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\can.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\objdictdef.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\objacces.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\sdo.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\timer.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\data.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\pdo.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\states.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\lifegrd.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\sync.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\nmtSlave.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\nmtMaster.h
+.\obj\pidiqs.o: ..\..\Canfestival\canfestival-3-asc\include\emcy.h
+.\obj\pidiqs.o: ..\..\SRC\Timer1.h
+.\obj\pidiqs.o: ..\..\iqmath\include\svpwm_dsp.h
+.\obj\pidiqs.o: ..\..\SRC\SystemVar.h
+.\obj\pidiqs.o: ..\..\SRC\UartMode.h
+.\obj\pidiqs.o: ..\..\SRC\SystemError.h
+.\obj\pidiqs.o: ..\..\SRC\MotorControl.h
+.\obj\pidiqs.o: ..\..\SRC\CanOpenMode.h
+.\obj\pidiqs.o: ..\..\SRC\pidcspeed.h
+.\obj\pidiqs.o: ..\..\Modbus\uart_interface.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\core\core_cm4.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\core\cmsis_version.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\core\cmsis_compiler.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\core\cmsis_armcc.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\core\mpu_armv7.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\device\system_n32g45x.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\stdbool.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\device\n32g45x_conf.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_adc.h
+.\obj\pidiqs.o: ..\..\Driver\CMSIS\device\n32g45x.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_bkp.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_can.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_comp.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_crc.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dac.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dbg.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dma.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_dvp.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_eth.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_exti.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_flash.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_gpio.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_i2c.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_iwdg.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_opamp.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_pwr.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_qspi.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rcc.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_rtc.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_sdio.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_spi.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tim.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_usart.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_wwdg.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_xfmc.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\n32g45x_tsc.h
+.\obj\pidiqs.o: ..\..\Driver\n32g45x_std_periph_driver\inc\misc.h
+.\obj\pidiqs.o: ..\..\Modbus\include\mb.h
+.\obj\pidiqs.o: ..\..\Modbus\include\port.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\assert.h
+.\obj\pidiqs.o: E:\Software installation\ARM\ARMCC\Bin\..\include\inttypes.h
+.\obj\pidiqs.o: ..\..\Modbus\include\mbport.h
+.\obj\pidiqs.o: ..\..\Modbus\include\mbproto.h
+.\obj\pidiqs.o: ..\..\SRC\SpeedPlan2.h
+.\obj\pidiqs.o: ..\..\SRC\pidtorque.h
+.\obj\pidiqs.o: ..\..\SRC\Pidposition.h
+.\obj\pidiqs.o: ..\..\SRC\Pidholding.h
